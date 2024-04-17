@@ -39,106 +39,8 @@
 <body>
 
 
-<!-- 
 
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white; height: auto; box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.05); margin-bottom: 1px !important;">
-<div class="container">
-
-    <a class="navbar-brand" href="#" style="padding: 0;">
-      <img src="./aboutImages/Logo.png" alt="Logo"  class="nav-logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon" style="border: none;"></span>
-    </button>
-    <div class="collapse navbar-collapse "  id="navbarSupportedContent" >
-      <ul class="navbar-nav ml-auto" style="font-weight: 400; font-family: 'Source Sans Pro', sans-serif; gap: 10px !important;">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >About</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
-            <a class="dropdown-item" href="#">JustLogix</a>
-            <a class="dropdown-item" href="#">Skein Technologies</a>
-            <a class="dropdown-item" href="#">Management</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Product</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownServices" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Services</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownServices">
-            <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
-            <a class="dropdown-item" href="#">Home</a>
-            <a class="dropdown-item" href="#">Management</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Product</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownServices" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Solutions</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownServices">
-            <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
-            <a class="dropdown-item" href="#">Home</a>
-            <a class="dropdown-item" href="#">Management</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Product</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownServices" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Industries</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownServices">
-            <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
-            <a class="dropdown-item" href="#">Home</a>
-            <a class="dropdown-item" href="#">Management</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Product</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownServices" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Technologies</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownServices">
-            <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
-            <a class="dropdown-item" href="#">Home</a>
-            <a class="dropdown-item" href="#">Management</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Product</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownServices" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Portfolio</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownServices">
-            <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
-            <a class="dropdown-item" href="#">Home</a>
-            <a class="dropdown-item" href="#">Management</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Product</a>
-          </div>
-        </li>
-      
-        <li class="nav-item">
-          <a class="nav-link" href="#"><button type="button" class="navbar_button">Get in Touch</button></a>
-        </li>
-      </ul>
-    </div>
-</div>
-
-  </nav> 
-  
-
-
-<script>
-  $('.navbar-toggler').on('click', function () {
-    $('.navbar-collapse').toggleClass('show');
-  });
-</script> -->
-
-
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: white; height: auto; box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.05); margin-bottom: 1px !important;">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white; height: auto; box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.05); margin-bottom: 1px !important;">
     <div class="container">
       <a class="navbar-brand" href="#" style="padding: 0;">
         <img src="./aboutImages/Logo.png" alt="Logo" class="nav-logo">
@@ -154,9 +56,9 @@
           </a>
           <span class="cancel-icon" onclick="closeSidebar()">&times;</span>
         </div>
-        <ul class="navbar-nav" style="font-weight: 400; font-family: 'Source Sans Pro', sans-serif; gap: 10px !important; margin-left: 20px !important;">
+        <ul class="navbar-nav" id="nav-sidebar-ul">
           <li class="nav-item">
-            <a class="nav-link" href="#" onclick="toggleDropdown('about')">About <i id="about-icon" class="fas fa-caret-down about-icon" ></i></a>
+            <a class="nav-link d-flex justify-content-between align-items-center" id="nav-a" href="#" onclick="toggleDropdown('about')" >About <i id="about-icon" class="fas bi-chevron-down about-icon" ></i></a>
             <div id="about-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdownAbout" style="display: none;">
               <a class="dropdown-item" href="#">JustLogix</a>
               <a class="dropdown-item" href="#">Skein Technologies</a>
@@ -165,8 +67,9 @@
               <a class="dropdown-item" href="#">Product</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" onclick="toggleDropdown('services')">Services <i id="services-icon" class="fas fa-caret-down"></i></a>
+          <hr class="footer-line" style="margin-top: 0px !important;">
+          <li class="nav-item" style="margin-top: -20px !important;">
+            <a class="nav-link d-flex justify-content-between align-items-center" id="nav-a" href="#" onclick="toggleDropdown('services')">Services <i id="services-icon" class="fas bi-chevron-down" ></i></a>
             <div id="services-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdownServices" style="display: none;">
               <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
               <a class="dropdown-item" href="#">Home</a>
@@ -175,12 +78,59 @@
               <a class="dropdown-item" href="#">Product</a>
             </div>
           </li>
+          <hr class="footer-line" style="margin-top: 0px !important;">
+          <li class="nav-item" style="margin-top: -20px !important;">
+            <a class="nav-link d-flex justify-content-between align-items-center" id="nav-a" href="#" onclick="toggleDropdown('services')">Technologies <i id="services-icon" class="fas bi-chevron-down" ></i></a>
+            <div id="services-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdownServices" style="display: none;">
+              <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
+              <a class="dropdown-item" href="#">Home</a>
+              <a class="dropdown-item" href="#">Management</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Product</a>
+            </div>
+          </li>
+          <hr class="footer-line" style="margin-top: 0px !important;">
+
+          <li class="nav-item" style="margin-top: -20px !important;">
+            <a class="nav-link d-flex justify-content-between align-items-center" id="nav-a" href="#" onclick="toggleDropdown('services')">Industries <i id="services-icon" class="fas bi-chevron-down" ></i></a>
+            <div id="services-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdownServices" style="display: none;">
+              <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
+              <a class="dropdown-item" href="#">Home</a>
+              <a class="dropdown-item" href="#">Management</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Product</a>
+            </div>
+          </li>
+          <hr class="footer-line" style="margin-top: 0px !important;">
+
+          <li class="nav-item" style="margin-top: -20px !important;">
+            <a class="nav-link d-flex justify-content-between align-items-center" id="nav-a" href="#" onclick="toggleDropdown('services')">Portfolios <i id="services-icon" class="fas bi-chevron-down" ></i></a>
+            <div id="services-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdownServices" style="display: none;">
+              <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
+              <a class="dropdown-item" href="#">Home</a>
+              <a class="dropdown-item" href="#">Management</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Product</a>
+            </div>
+          </li>
+          <hr class="footer-line" style="margin-top: 0px !important;">
+
           <!-- Add other dropdown items -->
         </ul>
       </div>
       <!-- End Sidebar -->
       <div class="collapse navbar-collapse" >
         <ul class="navbar-nav ml-auto" style="font-weight: 400; font-family: 'Source Sans Pro', sans-serif; gap: 10px !important;">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSolutions" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >About</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownSolutions">
+                  <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
+                  <a class="dropdown-item" href="#">Home</a>
+                  <a class="dropdown-item" href="#">Management</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Product</a>
+                </div>
+              </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSolutions" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownSolutions">
@@ -229,34 +179,22 @@
     </div>
   </nav>
   
-  <!-- <script>
-    // Function to open sidebar
-    function openSidebar() {
-      document.querySelector('.sidebar').classList.add('active');
-    }
-  
-    // Function to close sidebar
-    function closeSidebar() {
-      document.querySelector('.sidebar').classList.remove('active');
-    }
-  
-    // Toggle sidebar on navbar toggler click
-    document.querySelector('.navbar-toggler').addEventListener('click', function () {
-      document.querySelector('.sidebar').classList.toggle('active');
-    });
-  </script> -->
+
   
   
   <script>
     // Function to open sidebar
     function openSidebar() {
-      document.querySelector('.sidebar').classList.add('active');
+        document.querySelector('.sidebar').classList.add('active');
+        document.querySelector('body').classList.add('sidebar-open');
     }
-  
+
     // Function to close sidebar
     function closeSidebar() {
-      document.querySelector('.sidebar').classList.remove('active');
+        document.querySelector('.sidebar').classList.remove('active');
+        document.querySelector('body').classList.remove('sidebar-open');
     }
+
   
     // Function to toggle dropdown
     function toggleDropdown(id) {
@@ -264,18 +202,22 @@
       var icon = document.getElementById(id + '-icon');
       if (dropdown.style.display === "none") {
         dropdown.style.display = "block";
-        icon.classList.remove('fa-caret-down');
-        icon.classList.add('fa-caret-up');
+        icon.classList.remove('bi-chevron-down');
+        icon.classList.add('bi-chevron-up');
       } else {
         dropdown.style.display = "none";
-        icon.classList.remove('fa-caret-up');
-        icon.classList.add('fa-caret-down');
+        icon.classList.remove('bi-chevron-up');
+        icon.classList.add('bi-chevron-down');
       }
     }
   
     // Toggle sidebar on navbar toggler click
     document.querySelector('.navbar-toggler').addEventListener('click', function () {
-      document.querySelector('.sidebar').classList.toggle('active');
+        if (document.querySelector('.sidebar').classList.contains('active')) {
+            closeSidebar(); // Close sidebar if already open
+        } else {
+            openSidebar(); // Open sidebar if closed
+        }
     });
   </script>
 
@@ -861,7 +803,7 @@
                       <img src="./aboutImages/logo5.png" alt="logo1" class="about-session9-logo custom-width img-fluid">
                   </div>
               </div>
-              <div class="about-sessiion9-logo-div row mt-4">
+              <div class="about-sessiion9-logo-div row mt-4" style="padding-top: 60px !important;" >
                   <div class="col-2">
                       <img src="./aboutImages/logo6.png" alt="logo1" class="about-session9-logo custom-width img-fluid">
                   </div>
@@ -875,10 +817,10 @@
                       <img src="./aboutImages/logo9.png" alt="logo1" class="about-session9-logo custom-width img-fluid">
                   </div>
                   <div class="col-2">
-                      <img src="./aboutImages/logo10.png" alt="logo1" class="about-session9-logo custom-width img-fluid">
+                      <img src="./aboutImages/logo1.png" alt="logo1" class="about-session9-logo custom-width img-fluid">
                   </div>
                   <div class="col-2">
-                      <img src="./aboutImages/logo11.png" alt="logo1" class="about-session9-logo custom-width img-fluid">
+                      <img src="./aboutImages/logo3.png" alt="logo1" class="about-session9-logo custom-width img-fluid">
                   </div>
               </div>
 
