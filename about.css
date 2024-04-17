@@ -7,8 +7,20 @@ body {
   color: #fff;
   border-radius: 7px;
   font-weight: 700;
-  border: none;
+  border: none !important;
   font-size: 16px;
+}
+.navbar-button{
+  border-radius: 8px;
+  background: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
+  color: #fff;
+  border-radius: 7px;
+  font-weight: 700;
+  border: none !important;
+  font-size: 16px;
+  width: 100% !important;
+  height: 34px !important;
+
 }
 
 /* Navbar logo styles */
