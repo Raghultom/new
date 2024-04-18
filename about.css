@@ -1161,9 +1161,7 @@ text-align: left;
   .about_session8_point_display2 {
     display: none !important;
   }
-  .about_session8_span1 {
-display: none !important;
-  }
+
   .about_session8_span1::after {
     display: none !important;
   }
