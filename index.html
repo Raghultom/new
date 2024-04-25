@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="about.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Add Hammer.js library for swipe functionality -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
@@ -705,15 +707,7 @@
       </div>
     </div>
   </div>  
-
-
-
-
-
-
-
-  
-
+<!-- 
   <script>
     var currentContent = 1; // Track the current content
 
@@ -754,8 +748,66 @@
 
     // Start automatic sliding
     var slideInterval = setInterval(autoSlideContent, 3000); 
-</script>
+</script> -->
 
+
+
+<script>
+  var currentContent = 1; // Track the current content
+  
+  // Function to display content
+  function displayContent(contentNumber) {
+    var contentElements = document.querySelectorAll(".about_session8_para3");
+    contentElements.forEach(function (element) {
+      element.style.display = "none";
+    });
+  
+    var content = document.getElementById("content" + contentNumber);
+    content.style.display = "block";
+  
+    var buttons1 = document.querySelectorAll(".bottom-buttons button");
+    var buttons2 = document.querySelectorAll(".bottom-buttons1 button");
+    
+    buttons1.forEach(function (button) {
+      button.classList.remove("active");
+    });
+    buttons2.forEach(function (button) {
+      button.classList.remove("active");
+    });
+  
+    buttons1[contentNumber - 1].classList.add("active");
+    buttons2[contentNumber - 1].classList.add("active");
+  
+    currentContent = contentNumber; // Update current content
+  }
+  
+  // Function to automatically slide content
+  function autoSlideContent() {
+    currentContent++;
+    if (currentContent > 4) {
+      currentContent = 1;
+    }
+    displayContent(currentContent);
+  }
+  
+  // Start automatic sliding
+  var slideInterval = setInterval(autoSlideContent, 3000);
+  
+  // Initialize Hammer.js for swipe functionality
+  var container = document.querySelector('.about_session8_maindiv');
+  var mc = new Hammer(container);
+  
+  mc.on("swiperight", function() {
+    // Swipe right action
+    displayContent(currentContent - 1);
+  });
+  
+  mc.on("swipeleft", function() {
+    // Swipe left action
+    displayContent(currentContent + 1);
+  });
+  </script>
+  
 
   <!-- About page session8 finished ================================================================================================================================================ -->
   <!-- About page session9 ================================================================================================================================================ -->
