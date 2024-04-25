@@ -589,6 +589,7 @@ text-align: center;
   .about_session5_span::after {
     margin-left: 12px;
     margin-top: 24px;
+
   }
 
   .about_session5_p1,
@@ -665,6 +666,7 @@ text-align: center;
   .about_session5_span::after {
     margin-left: 12px;
     margin-top: 24px;
+
   }
 
   .about_session5_p1,
@@ -1063,10 +1065,7 @@ text-align: center;
 
 /* <!-- About page session7 finished ================================================================================================================================================ --> */
 /* <!-- About page session8 ================================================================================================================================================ --> */
-.about_session8_maindiv{
-  /* margin-top: 100px !important; */
-  /* background-color: red; */
-}
+
 .about_session8_image_display1 {
   display: none;
 }
