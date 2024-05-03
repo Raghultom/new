@@ -281,11 +281,11 @@ text-align: center;
 
 
 
-.about-section4-container {
+.goals-container {
   margin-top: 100px !important;
 }
 
-.about-section4-top-para {
+.goals-top-para {
   font-size: 48px;
   font-weight: 600;
   line-height: 60.34px;
@@ -293,7 +293,7 @@ text-align: center;
   margin-bottom: 50px !important;
 }
 
-.about-section4-top-span {
+.goals-top-span {
   font-size: 48px;
   font-weight: 600;
   line-height: 60.34px;
@@ -302,7 +302,7 @@ text-align: center;
   position: relative;
 }
 
-.about-section4-top-span::after {
+.goals-top-span::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -313,24 +313,24 @@ text-align: center;
   background-color: #2CA068;
 }
 
-.about-section4-image-div {
+.goals-image-div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.about-section4-image {
+.goals-image {
   border-top-left-radius: 70px;
   border-bottom-right-radius: 140px;
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-/* .about-section4-column2 {
+/* .goals-column2 {
   margin-top: 70px !important;
 } */
 
-.about-section4-col2-p1 {
+.goals-col2-p1 {
   margin-top: 20px !important;
   font-size: 24px;
   font-weight: 600;
@@ -338,8 +338,8 @@ text-align: center;
   text-align: left;
 }
 
-.about-section4-col2-p2,
-.about-section4-col2-p4 {
+.goals-col2-p2,
+.goals-col2-p4 {
   width: 550px;
   font-size: 14px;
   font-weight: 400;
@@ -348,7 +348,7 @@ text-align: center;
   color: #676968;
 }
 
-.about-section4-col2-p3 {
+.goals-col2-p3 {
   font-size: 24px;
   font-weight: 600;
   line-height: 30.17px;
@@ -357,46 +357,46 @@ text-align: center;
 }
 
 @media (max-width: 768px) {
-  .about-section4-container {
+  .goals-container {
     margin-top: 50px !important;
   }
 
-  .about-section4-top-para {
+  .goals-top-para {
     font-size: 32px;
     line-height: 40.22px;
     margin-bottom: 0px !important;
 
   }
 
-  .about-section4-top-span {
+  .goals-top-span {
     font-size: 32px;
     line-height: 40.22px;
   }
 
-  .about-section4-top-span::after {
+  .goals-top-span::after {
     width: 30px;
   }
 
-  .about-section4-image {
+  .goals-image {
     width: 300px !important;
     height: 304px !important;
     margin-top: 30px;
   }
 
-  .about-section4-col2-p1 {
+  .goals-col2-p1 {
     /* margin-top: 50px !important; */
     font-size: 20px;
     line-height: 25.14px;
   }
 
-  .about-section4-col2-p2,
-  .about-section4-col2-p4 {
+  .goals-col2-p2,
+  .goals-col2-p4 {
     width: 100%;
     height: auto;
     text-align: justify;
   }
 
-  .about-section4-col2-p3 {
+  .goals-col2-p3 {
     font-size: 20px;
     line-height: 25.14px;
     margin-top: 10px !important;
@@ -404,7 +404,7 @@ text-align: center;
 }
 
 /* <!-- About page session4 finished ================================================================================================================================================ --> */
-.about_session5_maindiv {
+.approach-maindiv {
   width: 100%;
   height: 633px;
   margin-left: 90px;
@@ -418,9 +418,9 @@ text-align: center;
   margin-top: 100px !important;
 }
 
-.about_session5_maincol {}
+.approach-maincol {}
 
-.about_session5_p1 {
+.approach-p1 {
   font-size: 48px;
   font-weight: 600;
   line-height: 60.34px;
@@ -429,7 +429,7 @@ text-align: center;
 
 }
 
-.about_session5_span {
+.approach-span {
   font-size: 48px;
   font-weight: 600;
   line-height: 60.34px;
@@ -438,7 +438,7 @@ text-align: center;
   position: relative;
 }
 
-.about_session5_span::after {
+.approach-span::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -449,7 +449,7 @@ text-align: center;
   background-color: #2CA068;
 }
 
-.about_session5_p2 {
+.approach-p2 {
   font-size: 16px;
   font-weight: 400;
   line-height: 20.11px;
@@ -458,7 +458,7 @@ text-align: center;
 
 }
 
-.about_session5_column1 .about_session5_card {
+.approach-column1 .approach-card {
   width: 300px;
   margin-bottom: 20px;
   margin-left: 20px;
@@ -466,9 +466,9 @@ text-align: center;
   border-radius: 12px;
 }
 
-.about_session5_column1 {}
+.approach-column1 {}
 
-.about_session5_column2 .about_session5_card {
+.approach-column2 .approach-card {
   margin-bottom: 20px;
   width: 300px;
   margin-left: 50px;
@@ -477,14 +477,14 @@ text-align: center;
 }
 
 
-.about_session5_img {
+.approach-img {
   width: 20px;
   height: 20px;
   margin-right: 10px;
 
 }
 
-.about_session5_title {
+.approach-title {
   font-size: 18px;
   font-weight: 600;
   line-height: 22.63px;
@@ -492,7 +492,7 @@ text-align: center;
   margin-top: 8px;
 }
 
-.about_session5_para {
+.approach-para {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -503,78 +503,79 @@ text-align: center;
 
 
 @media (max-width: 320px) {
-  .about_session5_maindiv {
+  .approach-maindiv {
     margin: 30px auto;
     padding: 0 15px;
     margin-top: 500px !important;
 
   }
 
-  .about_session5_span::after {
-    margin-left: 12px;
-    margin-top: 24px;
+  .approach-span::after {
+    margin-left: 12px !important;
+    margin-top: 20px !important ;
     width: 28px !important;
+
   }
 
-  .about_session5_p1,
-  .about_session5_span {
+  .approach-p1,
+  .approach-span {
     font-size: 32px;
     line-height: 1.2;
     width: 300px;
   }
 
-  .about_session5_p1 {
+  .approach-p1 {
     margin-left: 0px !important;
     margin-bottom: 30px !important;
   }
 
-  .about_session5_p2 {
+  .approach-p2 {
     font-size: 14px;
     margin: 0 auto;
     margin-bottom: 20px !important;
 
   }
 
-  .about_session5_card {
+  .approach-card {
 
     margin-bottom: 15px;
     margin-top: 10px !important;
 
   }
 
-  .about_session5_column1 .about_session5_card {
+  .approach-column1 .approach-card {
     width: auto !important;
     margin-left: 0px;
   }
 
-  .about_session5_column2 .about_session5_card {
+  .approach-column2 .approach-card {
     width: auto !important;
     margin-left: 1px;
   }
 
-  .about_session5_maincol {
+  .approach-maincol {
     margin-top: -70px !important;
   }
 
-  .about_session5_img {
+  .approach-img {
     width: 20px;
     height: 20px;
     margin-right: 10px;
   }
 
-  .about_session5_title {
+  .approach-title {
     font-size: 16px;
     margin-top: 8px;
   }
 
-  .about_session5_para {
+  .approach-para {
     font-size: 12px;
     margin-top: 8px;
   }
 }
 
 @media (min-width: 321px) and (max-width:375px) {
-  .about_session5_maindiv {
+  .approach-maindiv {
     margin: 30px auto;
     padding: 0 15px;
     margin-top: 480px !important;
@@ -582,70 +583,73 @@ text-align: center;
 
   }
 
-  .about_session5_p1,
-  .about_session5_span,
-
-
-  .about_session5_span::after {
+  .approach-p1,
+  .approach-span{
     margin-left: 12px;
     margin-top: 24px;
 
   }
+  .approach-span::after {
+    margin-left: 12px !important;
+    margin-top: 20px !important ;
+    width: 28px !important;
 
-  .about_session5_p1,
-  .about_session5_span {
+  }
+
+  .approach-p1,
+  .approach-span {
     font-size: 32px;
     line-height: 1.2;
     width: 300px;
   }
 
-  .about_session5_p1 {
+  .approach-p1 {
     margin-left: 0px !important;
     margin-bottom: 30px !important;
 
   }
 
-  .about_session5_p2 {
+  .approach-p2 {
     font-size: 14px;
     margin-bottom: 30px !important;
 
 
   }
 
-  .about_session5_card {
+  .approach-card {
 
     margin-bottom: 15px;
     margin-top: 5px !important;
   }
 
-  .about_session5_column1 .about_session5_card {
+  .approach-column1 .approach-card {
     width: auto !important;
     margin-left: 0px;
   }
 
-  .about_session5_column2 .about_session5_card {
+  .approach-column2 .approach-card {
     width: auto !important;
     margin-left: 1px;
 
   }
 
-  .about_session5_maincol {
+  .approach-maincol {
     margin-top: -90px !important;
   }
 
 
-  .about_session5_img {
+  .approach-img {
     width: 20px;
     height: 20px;
     margin-right: 10px;
   }
 
-  .about_session5_title {
+  .approach-title {
     font-size: 16px;
     margin-top: 8px;
   }
 
-  .about_session5_para {
+  .approach-para {
     font-size: 12px;
     margin-top: 8px;
   }
@@ -653,77 +657,81 @@ text-align: center;
 
 
 @media (min-width: 376px) and (max-width:425px) {
-  .about_session5_maindiv {
+  .approach-maindiv {
     margin: 30px auto;
     padding: 0 15px;
     margin-top: 450px !important;
 
   }
 
-  .about_session5_p1,
-  .about_session5_span,
-
-  .about_session5_span::after {
+  .approach-p1,
+  .approach-span {
     margin-left: 12px;
     margin-top: 24px;
 
   }
+  .approach-span::after {
+    margin-left: 12px !important;
+    margin-top: 20px !important ;
+    width: 28px !important;
 
-  .about_session5_p1,
-  .about_session5_span {
+  }
+
+  .approach-p1,
+  .approach-span {
     font-size: 32px;
     line-height: 1.2;
     width: 300px;
   }
 
-  .about_session5_p1 {
+  .approach-p1 {
     margin-left: 0px !important;
     margin-bottom: 30px !important;
 
   }
  
 
-  .about_session5_p2 {
+  .approach-p2 {
     font-size: 14px;
     margin-bottom: 30px !important;
 
 
   }
 
-  .about_session5_card {
+  .approach-card {
 
     margin-bottom: 15px;
     width: 390px !important;
     margin-top: 3px !important;
   }
 
-  .about_session5_column1 .about_session5_card {
+  .approach-column1 .approach-card {
     width: auto !important;
     margin-left: 0px;
   }
 
-  .about_session5_column2 .about_session5_card {
+  .approach-column2 .approach-card {
     width: auto !important;
     margin-left: 1px;
 
   }
 
-  .about_session5_maincol {
+  .approach-maincol {
     margin-top: -100px !important;
   }
 
-  .about_session5_img {
+  .approach-img {
     width: 20px;
     height: 20px;
     margin-right: 10px;
   }
 
-  .about_session5_title {
+  .approach-title {
     font-size: 16px;
     margin-top: 8px;
   }
 
-  .about_session5_para {
+  .approach-para {
     font-size: 12px;
     margin-top: 8px;
   }
@@ -735,42 +743,42 @@ text-align: center;
 /* <!-- About page session5 finished ================================================================================================================================================ --> */
 
 /* <!-- About page session6 ================================================================================================================================================ --> */
-.about_session6_maindiv {
+.Accomplishments-maindiv {
   margin-top: 80px !important;
 }
-.about_session6_maindiv .card_column {
+.Accomplishments-maindiv .card_column {
   margin-right: -40px !important;
 }
 
-.about_session6_maindiv .card_column3 {
+.Accomplishments-maindiv .card_column3 {
 
   /* padding-right: 100px; */
   margin-right: 10px !important;
   margin-left: 15px;
 }
 
-.about_session6_maindiv .card_column4 {
+.Accomplishments-maindiv .card_column4 {
   margin-left: -28px !important;
 }
 
-.about_session6_maindiv .card_column5 {
+.Accomplishments-maindiv .card_column5 {
   margin-right: -30px !important;
   margin-left: -20px;
 }
 
-.about_session6_para {
-  font-size: 38px;
-  font-weight: 600;
-  line-height: 36px;
-  text-align: left;
+.Accomplishments-para1{
+  font-size: 38px !important;
+  font-weight: 600 !important;
+  line-height: 36px !important;
+  text-align: left !important;
   margin-bottom: 50px !important;
 }
 
-.about_session6_span {
+.Accomplishments-span {
   position: relative;
   color: rgba(44, 160, 104, 1);
 }
-.about_session6_span::after {
+.Accomplishments-span::after {
   content: '';
   position: absolute;
   top: 60%;
@@ -788,7 +796,7 @@ text-align: center;
   width: 445px;
 }
 
-.about_session6_card_img {
+.Accomplishments-card_img {
   width: 48px;
   height: 48px;
   margin-top: 20px;
@@ -804,7 +812,7 @@ text-align: center;
   margin-top: 30px !important;
 }
 
-.session6_card_title {
+.Accomplishments-title {
   margin-top: 40px;
   margin-left: 20px;
   font-size: 34px;
@@ -814,7 +822,7 @@ text-align: center;
 
 }
 
-.session6_card_para {
+.Accomplishments-para {
   font-size: 14px;
   line-height: 20px;
   text-align: left;
@@ -842,12 +850,12 @@ text-align: center;
 
 
 @media (max-width:768px) {
-  .about_session6_maindiv{
+  .Accomplishments-maindiv{
     margin-top: 20px !important;
   }
   
  
-  .about_session6_span::after {
+  .Accomplishments-span::after {
     display: none !important;
     content: '';
     position: absolute;
@@ -864,25 +872,25 @@ text-align: center;
     max-width: none;
     /* Remove the maximum width constraint */
   }
-  .about_session6_maindiv .card_column {
+  .Accomplishments-maindiv .card_column {
     margin-right: 0px !important;
   }
 
-  .about_session6_maindiv .card_column2 {
+  .Accomplishments-maindiv .card_column2 {
     margin-right: 0px !important;
   }
 
-  .about_session6_maindiv .card_column3 {
+  .Accomplishments-maindiv .card_column3 {
     margin-right: 0px !important;
     /* width: 215px !important; */
     margin-left: 0px;
   }
 
-  .about_session6_maindiv .card_column4 {
+  .Accomplishments-maindiv .card_column4 {
     margin-left: 0px !important;
   }
 
-  .about_session6_maindiv .card_column5 {
+  .Accomplishments-maindiv .card_column5 {
     margin-left: 0px !important;
     margin-right: 0px;
   }
@@ -898,7 +906,7 @@ text-align: center;
     max-width: 100%;
   }
 
-  /* .about_session6_maindiv .container .session6_row1{
+  /* .Accomplishments-maindiv .container .session6_row1{
             display: flex !important;
             flex-direction: column !important;
             align-items: center !important;
@@ -913,18 +921,18 @@ text-align: center;
     margin-top: 0px !important;
   }
 
-  .about_session6_para {
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 40.22px;
-    text-align: left;
+  .Accomplishments-para1 {
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    line-height: 40.22px !important;
+    text-align: left !important;
 
 
 
 
   }
 
-  .session6_card_title {
+  .Accomplishments-title {
     font-size: 32px;
     font-weight: 700;
     line-height: 24px;
@@ -945,7 +953,7 @@ text-align: center;
 /* Styles for About Session 7 */
 
 /* Main div */
-.about-session7-maindiv {
+.values-maindiv {
   max-width: 1192px;
   width: 100%;
   margin: 0 auto;
@@ -955,14 +963,14 @@ text-align: center;
 }
 
 /* Background div */
-.about-session7-background-div {
+.values-background-div {
   background: rgba(35, 137, 156, 0.05);
   width: 100%;
   margin-top: 100px !important;
 }
 
 /* Main paragraph */
-.about-session7-main-para {
+.values-main-para {
   font-size: 3rem;
   font-weight: 600;
   line-height: 1.25;
@@ -971,11 +979,11 @@ text-align: center;
   margin-bottom: 2.5rem;
 }
 
-.about-session7-main-span {
+.values-main-span {
   position: relative;
   color: rgba(44, 160, 104, 1);
 }
-.about-session7-main-span::after {
+.values-main-span::after {
   content: '';
   position: absolute;
   top: 60%;
@@ -986,21 +994,21 @@ text-align: center;
   background-color: #2CA068;
 }
 /* Grid container */
-.about-session7-grid-container {
+.values-grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
 /* Cards */
-.about-session7-card {
+.values-card {
   width: 100%;
   border: none;
   border-radius: 0.5rem;
 }
 
 /* Image */
-.about-session7-img {
+.values-img {
   width: 2.375rem;
   height: 2.375rem;
   margin-top: 1.25rem;
@@ -1008,7 +1016,7 @@ text-align: center;
 }
 
 /* Card title */
-.about-session7-title {
+.values-title {
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 1.25;
@@ -1016,7 +1024,7 @@ text-align: center;
 }
 
 /* Card text */
-.about-session7-text {
+.values-text {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.571;
@@ -1026,35 +1034,35 @@ text-align: center;
 
 /* Media query for smaller screens */
 @media (max-width: 48rem) {
-  .about-session7-maindiv{
+  .values-maindiv{
     height: auto !important;
   }
-  .about-session7-background-div{
+  .values-background-div{
     margin-top: 30px !important;
   }
-  .about-session7-grid-container {
+  .values-grid-container {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .about-session7-main-para {
+  .values-main-para {
     font-size: 2rem;
     margin-bottom: 1.25rem;
   }
 
-  .about-session7-title {
+  .values-title {
     font-size: 1.125rem;
     line-height: 1.25;
   }
-  .about-session7-main-span::after {
+  .values-main-span::after {
     width: 28px !important;
   }
 
-  .about-session7-text {
+  .values-text {
     font-size: 0.75rem;
     line-height: 1.429;
   }
 
-  .about-session7-img {
+  .values-img {
     width: 2.375rem;
     height: 2rem;
     margin-top: 1.25rem;
@@ -1066,30 +1074,30 @@ text-align: center;
 /* <!-- About page session7 finished ================================================================================================================================================ --> */
 /* <!-- About page session8 ================================================================================================================================================ --> */
 
-.about_session8_image_display1 {
+.casestudies-image_display1 {
   display: none;
 }
 
-.about_session8_point_display1 {
+.casestudies-point_display1 {
   display: none !important;
 }
 
-.about_session8_point_display2 {
+.casestudies-point_display2 {
   display: block !important;
 }
 
-.about_session8_para1 {
+.casestudies-para1 {
   font-size: 48px;
   font-weight: 600;
   line-height: 60.34px;
 
 }
 
-.about_session8_span1 {
+.casestudies-span1 {
   position: relative;
   color: rgba(44, 160, 104, 1);
 }
-.about_session8_span1::after {
+.casestudies-span1::after {
   content: '';
   position: absolute;
   top: 60%;
@@ -1099,7 +1107,7 @@ text-align: center;
   border-radius: 12px;
   background-color: #2CA068;
 }
-.about_session8_para2 {
+.casestudies-para2 {
   font-size: 24px;
   font-weight: 600;
   line-height: 36px;
@@ -1109,7 +1117,7 @@ text-align: center;
 
 }
 
-.about_session8_para3 {
+.casestudies-para3 {
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -1120,7 +1128,7 @@ text-align: center;
 }
 
 
-.about_session8_button {
+.casestudies-button {
   width: 161px;
   height: 42px;
   border-radius: 12px;
@@ -1181,34 +1189,34 @@ text-align: center;
 }
 
 
-.about_session8_button_div{
+.casestudies-button_div{
   margin-top: 50px;
 }
 
 
 
 @media (max-width:768px) {
-  .about_session8_image_display1 {
+  .casestudies-image_display1 {
     display: block;
   }
 
-  .about_session8_point_display1 {
+  .casestudies-point_display1 {
     display: block !important;
   }
 
-  #about_session8_image2 {
+  #casestudies-image2 {
     display: none !important;
   }
 
-  .about_session8_point_display2 {
+  .casestudies-point_display2 {
     display: none !important;
   }
 
-  .about_session8_span1::after {
+  .casestudies-span1::after {
     display: block !important;
    
   }
-  .about_session8_span1::after {
+  .casestudies-span1::after {
     content: '';
     position: absolute;
     top: 60%;
@@ -1218,7 +1226,7 @@ text-align: center;
     border-radius: 12px;
     background-color: #2CA068;
   }
-  .about_session8_para1 {
+  .casestudies-para1 {
     font-size: 32px;
     font-weight: 600;
     line-height: 40.22px;
@@ -1226,18 +1234,18 @@ text-align: center;
 /* height: 21px; */
 
   }
-  .about_session8_para3 {
+  .casestudies-para3 {
 
     margin-top: 20px !important;
   
   }
-  .about_session8_span1 {
+  .casestudies-span1 {
     font-size: 32px;
     font-weight: 600;
     line-height: 40.22px;
   }
 
-  .about_session8_para2 {
+  .casestudies-para2 {
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
@@ -1248,7 +1256,7 @@ margin-top: 10px !important;
 
 
   }
-  .about_session8_button_div{
+  .casestudies-button_div{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1261,7 +1269,7 @@ margin-top: 10px !important;
 
 /* <!-- About page session8 finished ================================================================================================================================================ --> */
 /* <!-- About page session9 ================================================================================================================================================ --> */
-.about-session9-maindiv {
+.ourClients-maindiv {
   /* width: 1440px; */
   height: 600px;
   background-color: rgba(35, 137, 156, 0.05);
@@ -1281,14 +1289,14 @@ margin-top: 10px !important;
   /* margin-left: 90px; */
 }
 
-.about-session9-para1 {
+.ourClients-para1 {
   font-size: 48px;
   font-weight: 600;
   line-height: 60.34px;
   text-align: left;
 }
 
-.about-session9-para2 {
+.ourClients-para2 {
   font-size: 16px;
   font-weight: 400;
   line-height: 20.11px;
@@ -1298,7 +1306,7 @@ margin-top: 10px !important;
 
 }
 
-.about-session9-span {
+.ourClients-span {
   position: relative;
   font-size: 48px;
   font-weight: 600;
@@ -1306,7 +1314,7 @@ margin-top: 10px !important;
   text-align: left;
   color: rgba(44, 160, 104, 1);
 }
-.about-session9-span::after {
+.ourClients-span::after {
   content: '';
   position: absolute;
   top: 60%;
@@ -1317,7 +1325,7 @@ margin-top: 10px !important;
   background-color: #2CA068;
 }
 
-.about-session9-para-div {
+.ourClients-para-div {
   /* width:  990px; */
   margin-top: 28px;
   /* margin-left: 8px; */
@@ -1377,14 +1385,14 @@ margin-top: 10px !important;
   /* Set your desired width */
 }
 
-.about-session9-button {
+.ourClients-button {
   border: none;
   background-color: transparent;
   color: #2CA068;
 
 }
 
-.about-session9-button-div {
+.ourClients-button-div {
   padding-top: 20px !important;
 }
 
@@ -1413,7 +1421,7 @@ margin-top: 10px !important;
   display: none;
 }
 @media (max-width:320px) {
-  .about-session9-button-div {
+  .ourClients-button-div {
     margin-top: -30px !important;
       }
   .about-sessiion9-logo-div{
@@ -1427,33 +1435,33 @@ margin-top: 10px !important;
     display: none;
   }
 
-  .about-session9-maindiv {
+  .ourClients-maindiv {
     margin-top: 0px !important;
   }
 
-  .about-session9-para2 {
+  .ourClients-para2 {
     padding-bottom: 0px !important;
   }
 
-  .about-session9-button-div {
+  .ourClients-button-div {
     padding-top: 0px !important;
   }
 
-  .about-session9-para1 {
+  .ourClients-para1 {
     font-size: 32px;
     font-weight: 600;
     line-height: 40.22px;
 
   }
 
-  .about-session9-span {
+  .ourClients-span {
     font-size: 32px;
     font-weight: 600;
     line-height: 40.22px;
     color: #2CA068;
     text-align: left;
   }
-  .about-session9-span::after {
+  .ourClients-span::after {
     content: '';
     position: absolute;
     top: 60%;
@@ -1464,7 +1472,7 @@ margin-top: 10px !important;
     background-color: #2CA068;
   }
   
-  .about-session9-para2 {
+  .ourClients-para2 {
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
@@ -1477,11 +1485,11 @@ margin-top: 10px !important;
     display: none !important;
   }
 
-  .about-session9-logo-col1 {
+  .ourClients-logo-col1 {
     display: none;
   }
 
-  .about-session9-logo {
+  .ourClients-logo {
     display: none;
   }
 
@@ -1489,7 +1497,7 @@ margin-top: 10px !important;
     display: none;
   }
 
-  .about-session9-maindiv {
+  .ourClients-maindiv {
     /* width: 1440px; */
     height: 485px;
     background-color: rgba(35, 137, 156, 0.05);
@@ -1520,7 +1528,7 @@ margin-top: 10px !important;
     height: 28px;
     margin-top: 50px !important;
   }
-  .about-session9-button-div {
+  .ourClients-button-div {
 padding-top: 40px !important;
   }
 
@@ -1558,13 +1566,13 @@ padding-top: 40px !important;
 /* <!-- About page session9 finished ================================================================================================================================================ --> */
 /* <!-- About page session10 ================================================================================================================================================ --> */
 /* Add your CSS styles here */
-.about-session10-maindiv {
+.blogs-maindiv {
   width: 100%;
   margin-left: -10px;
   margin-bottom: 30px;
 }
 
-.about-session10-para1 {
+.blogs-para1 {
   font-size: 48px;
   font-weight: 600;
   line-height: 60.34px;
@@ -1572,14 +1580,14 @@ padding-top: 40px !important;
   margin-top: 50px;
 }
 
-.about-session10-span {
+.blogs-span {
   position: relative;
   font-size: 48px;
   font-weight: 600;
   line-height: 60.34px;
   color: rgba(44, 160, 104, 1);
 }
-.about-session10-span::after {
+.blogs-span::after {
   content: '';
   position: absolute;
   top: 60%;
@@ -1589,7 +1597,7 @@ padding-top: 40px !important;
   border-radius: 12px;
   background-color: #2CA068;
 }
-.about-session10-para2 {
+.blogs-para2 {
   font-size: 16px;
   font-weight: 400;
   line-height: 20.11px;
@@ -1598,13 +1606,13 @@ padding-top: 40px !important;
   margin: 40px 0px;
 }
 
-.about-session10-image {
+.blogs-image {
   width: 100%;
   border-radius: 20px;
   overflow: hidden;
 }
 
-.about-session10-image-p1 {
+.blogs-image-p1 {
   font-size: 14px;
   font-weight: 600;
   line-height: 17.6px;
@@ -1624,7 +1632,7 @@ padding-top: 40px !important;
   color: #2B2A2C;
 }
 
-.about-session10-button {
+.blogs-button {
   border: none;
   background-color: transparent;
   margin: 40px 0px;
@@ -1634,10 +1642,10 @@ padding-top: 40px !important;
   text-align: center;
   color: rgba(103, 105, 104, 1);
 }
-.about-session10-button i{
+.blogs-button i{
   padding-left: 5px;
 }
-.about-session10-image-dot {
+.blogs-image-dot {
   margin-left: 1084px;
   position: absolute;
   margin-top: 80px;
@@ -1648,7 +1656,7 @@ padding-top: 40px !important;
 
 /* Media Query for responsiveness */
 @media (max-width:768px) {
-  .about-session10-maindiv {
+  .blogs-maindiv {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1656,24 +1664,24 @@ padding-top: 40px !important;
     margin-left: 0px;
   }
 
-  .about-session10-para1 {
+  .blogs-para1 {
     font-size: 32px;
     text-align: left;
     padding-top: 50px;
     margin: 0px 5px;
   }
 
-  .about-session10-span {
+  .blogs-span {
     font-size: 32px;
   }
 
-  .about-session10-para2 {
+  .blogs-para2 {
     font-size: 14px;
     margin-top: 10px;
     margin: 0px 5px;
     margin-bottom: 30px;
   }
-  .about-session10-span::after {
+  .blogs-span::after {
     content: '';
     position: absolute;
     top: 50%;
@@ -1685,32 +1693,32 @@ padding-top: 40px !important;
     display: block !important;
   }
 
-  .about-session10-maindiv .col-lg-4 {
+  .blogs-maindiv .col-lg-4 {
     margin-bottom: 20px;
   }
 
-  .about-session10-image-dot {
+  .blogs-image-dot {
     display: none;
   }
 
-  .about-session10-row {
+  .blogs-row {
     margin-right: 100px;
     width: 120%;
     height: 26px;
     margin-top: 20px !important;
   }
 
-  .about-session10-col {
+  .blogs-col {
     flex: 0 0 100%;
     max-width: 110%;
     margin-top: 20px;
   }
 
-  .about-session10-image {
+  .blogs-image {
     border-radius: 20px;
   }
 
-  .about-session10-image-p2 {
+  .blogs-image-p2 {
     width: 110%;
     font-size: 18px;
     margin-left: 10px;
@@ -1725,11 +1733,11 @@ padding-top: 40px !important;
     color: #2B2A2C;
   }
 
-  .about-session10-col-profile {
+  .blogs-col-profile {
     margin-left: 10px;
   }
 
-  .about-session10-col-profile-name {
+  .blogs-col-profile-name {
     font-size: 16px;
     line-height: 20.11px;
     text-align: left;
@@ -1737,14 +1745,14 @@ padding-top: 40px !important;
     margin-left: -60px;
   }
 
-  .about-session10-col-profile-dob {
+  .blogs-col-profile-dob {
     font-size: 16px;
     width: 120%;
     line-height: 20.11px;
     text-align: left;
     color: rgba(112, 110, 114, 1);
   }
-  .about-session10-button {
+  .blogs-button {
     border: none;
     background-color: transparent;
     margin: 5px 0px;
@@ -1755,7 +1763,7 @@ padding-top: 40px !important;
     color: #414042;
     margin-bottom: 40px;
   }
-  .about-session10-button i{
+  .blogs-button i{
     padding-left: 5px;
   }
 }
