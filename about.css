@@ -790,15 +790,21 @@ text-align: center;
 }
 .card_test {
   width: 215px;
+  height: 224px !important;
+  border-radius: 8px !important;
 }
 
 .card_width {
   width: 445px;
+  height: 224px !important;
+  border-radius: 8px !important;
+
+
 }
 
 .Accomplishments-card_img {
-  width: 48px;
-  height: 48px;
+    /* width: 48px;
+    height: 48px; */
   margin-top: 20px;
   margin-left: 20px;
 }
@@ -813,7 +819,7 @@ text-align: center;
 }
 
 .Accomplishments-title {
-  margin-top: 40px;
+  margin-top: 30px;
   margin-left: 20px;
   font-size: 34px;
   font-weight: 700;
@@ -845,7 +851,9 @@ text-align: center;
   max-width: 215px;
   /* Set a maximum width for the card */
 }
-
+.Accomplishments-card_img-mobile{
+  display: none !important;
+}
 /* Media query for screens with a maximum width of 768px (adjust as needed) */
 
 
@@ -905,6 +913,18 @@ text-align: center;
     width: 500px;
     max-width: 100%;
   }
+  .card_test {
+    width: 382px;
+    height: 185px !important;
+    border-radius: 8px !important;
+  }
+  
+  .card_width {
+    width: 382px;
+    height: 221px !important;
+    border-radius: 8px !important;
+  
+  }
 
   /* .Accomplishments-maindiv .container .session6_row1{
             display: flex !important;
@@ -937,9 +957,31 @@ text-align: center;
     font-weight: 700;
     line-height: 24px;
     text-align: left;
+    margin-top: 20px !important;
 
   }
+  .Accomplishments-para {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
 
+  }
+  .Accomplishments-card_img {
+    width: 36px;
+    height: 36px;
+  }
+  .Accomplishments-card_img-mobile{
+    display: block !important;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+.Accomplishments-card_img{
+  display: none !important;
+}
+.tom{
+  margin-top: 10px !important;
+}
 }
 
 
@@ -1075,7 +1117,7 @@ text-align: center;
 
 /* <!-- About page session7 finished ================================================================================================================================================ --> */
 /* <!-- About page session8 ================================================================================================================================================ --> */
-
+/* 
 .casestudies-image_display1 {
   display: none;
 }
@@ -1233,7 +1275,6 @@ text-align: center;
     font-weight: 600;
     line-height: 40.22px;
     width: 270px;
-/* height: 21px; */
 
   }
   .casestudies-para3 {
@@ -1252,8 +1293,7 @@ text-align: center;
     font-weight: 600;
     line-height: 22px;
     text-align: left;
-    /* width: 382px; */
-/* height: 34px; */
+
 margin-top: 10px !important;
 
 
@@ -1267,7 +1307,7 @@ margin-top: 10px !important;
     margin-top: 0px !important;
   }
 
-}
+} */
 
 /* <!-- About page session8 finished ================================================================================================================================================ --> */
 /* <!-- About page session9 ================================================================================================================================================ --> */
@@ -1492,7 +1532,7 @@ margin-top: 10px !important;
   }
 
   .ourClients-logo {
-    display: none;
+    display: none !important;
   }
 
   .session9-hr1 {
@@ -1554,12 +1594,14 @@ padding-top: 40px !important;
   }
   .container-session9-img {
     display: flex;
-    justify-content: space-between; /* Distribute space between images */
+    justify-content: space-between; 
 }
 
 .session9-img-mb {
   display: block; 
-    margin-right: 25px !important; /* Adjust margin between images */
+    margin-right: 25px !important; 
+    /* width: 188px !important; */
+    /* background-color: rebeccapurple; */
 }
 
 }
@@ -1758,6 +1800,7 @@ padding-top: 40px !important;
     border: none;
     background-color: transparent;
     margin: 5px 0px;
+    margin-left: -5px !important;
     font-size: 16px;
     font-weight: 400;
     line-height: 20.11px;
@@ -2232,3 +2275,228 @@ textarea {
     margin-top: 15px;
   }
 }
+
+
+/* our case  */
+
+
+.casestudies-image_display1 {
+  display: none;
+}
+
+.casestudies-point_display1 {
+  display: none !important;
+}
+
+.casestudies-point_display2 {
+  display: block !important;
+}
+
+.casestudies-para1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60.34px;
+
+}
+
+.casestudies-span1 {
+  position: relative;
+  color: rgba(44, 160, 104, 1);
+}
+.casestudies-span1::after {
+  content: '';
+  position: absolute;
+  top: 60%;
+  margin-left: 10px;
+  width: 50px !important;
+  height: 3px;
+  border-radius: 12px;
+  background-color: #2CA068;
+}
+.casestudies-para2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  color: #000000;
+  margin-top: 50px !important;
+
+}
+
+.casestudies-para3 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #676968;
+  margin-top: 50px !important;
+
+}
+
+
+.casestudies-button {
+  width: 161px;
+  height: 42px;
+  border-radius: 12px;
+  padding: 10px, 20px, 10px, 20px;
+  background: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
+  color: #fff;
+  border: none;
+}
+
+
+.bottom-buttons button {
+  width: 10px;
+  height: 10px;
+  border-radius: 12px;
+  opacity: 0px;
+  background-color: rgba(196, 196, 196, 1);
+  cursor: pointer;
+  border: none;
+  margin-left: 4px !important;
+
+
+}
+
+.bottom-buttons button.active {
+  background: rgba(44, 160, 104, 1);
+  width: 24px;
+  height: 8px;
+  gap: 0px;
+  border-radius: 12px;
+  opacity: 0px;
+
+
+}
+
+.bottom-buttons1 button {
+  width: 10px;
+  height: 10px;
+  gap: 20px !important;
+  border-radius: 12px;
+  opacity: 0px;
+  background-color: rgba(196, 196, 196, 1);
+  cursor: pointer;
+  border: none;
+  margin-left: 4px !important;
+  margin-bottom: 80px !important;
+
+
+}
+
+.bottom-buttons1 button.active {
+  background: rgba(44, 160, 104, 1);
+  width: 24px;
+  height: 8px;
+  gap: 0px;
+  border-radius: 12px;
+  opacity: 0px;
+
+}
+
+
+.casestudies-button_div{
+  margin-top: 50px;
+}
+
+@media (min-width:320px)and (max-width:374px){
+  .casestudies-maindiv{
+    margin-top: 0px !important;
+  }
+}
+@media (min-width:375px)and (max-width:424px){
+  .casestudies-maindiv{
+    margin-top: 0px !important;
+  }
+}
+@media (min-width:425px)and (max-width:767px){
+  .casestudies-maindiv{
+    margin-top: 0px !important;
+  }
+}
+/* @media (min-width:768px){
+  .casestudies-maindiv{
+    margin-top: 180px !important;
+  }
+} */
+
+@media (max-width:768px) {
+  .casestudies-maindiv{
+    margin-top: -70px !important;
+  }
+  .casestudies-image_display1 {
+    display: block;
+  }
+
+  .casestudies-point_display1 {
+    display: block !important;
+  }
+
+  #casestudies-image2 {
+    display: none !important;
+  }
+
+  .casestudies-point_display2 {
+    display: none !important;
+  }
+
+  .casestudies-span1::after {
+    display: block !important;
+   
+  }
+  .casestudies-maindiv{
+    /* margin-top: 500px !important; */
+  }
+  .casestudies-span1::after {
+    content: '';
+    position: absolute;
+    top: 60%;
+    margin-left: 270px;
+    width: 28px !important;
+    height: 3px;
+    border-radius: 12px;
+    background-color: #2CA068;
+  }
+  .casestudies-para1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40.22px;
+    width: 270px;
+/* height: 21px; */
+margin-top: 50px !important;
+
+  }
+  .casestudies-para3 {
+
+    margin-top: 20px !important;
+  
+  }
+  .casestudies-span1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40.22px;
+  }
+
+  .casestudies-para2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    /* width: 382px; */
+/* height: 34px; */
+margin-top: 10px !important;
+
+
+  }
+  .casestudies-button_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px !important;
+    padding-top: 20px !important;
+    margin-top: 0px !important;
+  }
+
+}
+
+/* end of our case section================================== */
