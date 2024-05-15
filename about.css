@@ -1,95 +1,102 @@
 body {
   font-family: 'Source Sans Pro', sans-serif !important;
 }
+
 .navbar_button {
-  border-radius: 12px;
-  background: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
-  color: #fff;
-  border-radius: 7px;
-  font-weight: 700;
-  border: none !important;
-  font-size: 16px;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
+    color: #fff;
+    border-radius: 7px;
+    font-weight: 700;
+    border: none !important;
+    font-size: 16px;
 }
-.navbar-button{
-  border-radius: 12px;
-  background: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
-  color: #fff;
-  border-radius: 7px;
-  font-weight: 700;
-  border: none !important;
-  font-size: 16px;
-  width: 100% !important;
-  height: 34px !important;
+
+.navbar-button {
+    border-radius: 12px;
+    background: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
+    color: #fff;
+    border-radius: 7px;
+    font-weight: 700;
+    border: none !important;
+    font-size: 16px;
+    width: 100% !important;
+    height: 34px !important;
 
 }
 
 /* Navbar logo styles */
 .nav-logo {
-  width: 210px !important;
-  height: 34px !important;
+    width: 210px !important;
+    height: 34px !important;
 }
 
 /* Sidebar styles */
 .sidebar {
-  position: fixed;
-  top: 0;
-  left: -950px;
-  width: 250px;
-  height: 100%;
-  background-color: #fff;
-  z-index: 1000;
-  transition: all 0.3s ease;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
-  padding-top: 50px;
+    position: fixed;
+    top: 0;
+    left: -950px;
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    padding-top: 50px;
 }
 
 .sidebar.active {
-  left: 0;
+    left: 0;
 }
-#navbarDropdownSolutions,#navbarDropdownIndustries,
-#navbarDropdownTechnologies,#navbarDropdownPortfolio{
-color:#676968;
-font-size: 16px;
-font-weight: 400;
-text-align: left;
+
+#navbarDropdownSolutions,
+#navbarDropdownIndustries,
+#navbarDropdownTechnologies,
+#navbarDropdownPortfolio {
+    color: #676968;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
 
 }
 
-#nav-a{
-  color: #676968 !important;
-font-size: 16px !important;
-font-weight: 400 !important;
-text-align: left;
+#nav-a {
+    color: #676968 !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    text-align: left;
 
 }
-#nav-sidebar-ul{
-  font-weight: 400; 
-  gap: 10px !important; 
-  margin-left: 20px !important;
-  margin-right: 20px !important;
+
+#nav-sidebar-ul {
+    font-weight: 400;
+    gap: 10px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
 }
 
 .cancel-icon {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 24px;
-  cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
 }
-.nav-logo-sidebar{
-  width: 138px !important;
-  height: 22.35px !important;
-  margin-top: -50px !important;
-  margin-left: 20px !important;
+
+.nav-logo-sidebar {
+    width: 138px !important;
+    height: 22.35px !important;
+    margin-top: -50px !important;
+    margin-left: 20px !important;
 }
 
 
 
 @media (min-width: 320px) and (max-width: 768px) {
-  .nav-logo {
-    width: 138px !important;
-    height: 22px !important;
-  }
+    .nav-logo {
+        width: 138px !important;
+        height: 22px !important;
+    }
 
 }
 
@@ -2220,6 +2227,119 @@ textarea {
   text-align: center;
 }
 
+.footer {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.footer h3 {
+  color: #000000;
+  margin-bottom: 15px;
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.footer-menu {
+  padding-left: 0;
+  list-style-type: none;
+  display: none;
+}
+
+.footer-menu.active {
+  display: block;
+}
+
+.footer-menu li {
+  color: #676968;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.footer-menu li:hover,
+.footer h3:hover {
+  color: #000000;
+  font-weight: 500;
+}
+
+.footer-border {
+  height: 1px;
+  background-color: #eeeeee;
+  margin: 20px 0;
+}
+
+.footer-text3 {
+  display: flex;
+}
+
+.footer .icon {
+  height: 32px;
+  width: 32px;
+  background-color: #f3f3f3;
+  border-radius: 50%;
+  color: #414042;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .icon:hover {
+  color: #000000;
+}
+
+.footer-text1,
+.footer-text2 {
+  font-size: 14px;
+font-size: 14px;
+font-weight: 400;
+line-height: 17.6px;
+text-align: left;
+color: #706E72;
+margin-top: 5px !important;
+
+
+}
+.footer-text1{
+  margin-top: 6px !important;
+}
+.footer-text3{
+margin-top: -5px !important;
+
+}
+.footer-menu {
+  display: block;
+}
+
+#footer-head i {
+  display: none;
+}
+
+.footer-line {
+  display: none;
+}
+
+.footer-services li {
+  width: auto;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.copysymbol {
+  font-size: 20px;
+  padding-right: 5px;
+
+}
+
+.copysymbol_text {
+  margin-top: -100px;
+}
+
+.footer-bottom-content {
+  text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
   .copysymbol {
     margin-top: 20px;
@@ -2270,11 +2390,32 @@ textarea {
     flex-direction: column;
     align-items: center;
   }
+  .footer-text1{
+font-size: 16px;
+font-weight: 400;
+line-height: 20.11px;
+/* text-align: left; */
+padding-bottom: 10px !important;
+display: flex;
+flex-direction: column;
+align-items: center;
+  }
 
   .footer-text2 {
     margin-top: 15px;
+font-size: 12px;
+font-weight: 400;
+line-height: 15.08px;
+text-align: center;
+
+
+  }
+  .footer-text3{
+    padding-bottom: 10px !important;
   }
 }
+
+
 
 
 /* our case  */
