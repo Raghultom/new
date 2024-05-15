@@ -34,215 +34,222 @@
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white; height: auto; box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.05); margin-bottom: 1px !important;">
-    <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top"
+  style="background-color: white; height: auto; box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.05); margin-bottom: 1px !important;">
+  <div class="container">
       <a class="navbar-brand" href="#" style="padding: 0;">
-        <img src="./aboutImages/Logo.png" alt="Logo" class="nav-logo">
+          <img src="./aboutImages/Logo.png" alt="Logo" class="nav-logo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon" style="border: none;"></span>
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="border: none;"></span>
       </button>
-      <!-- Sidebar -->
+
       <div class="sidebar">
-        <div class="sidebar-header">
-          <a class="navbar-brand" href="#" style="padding: 0;">
-            <img src="./aboutImages/Logo.png" alt="Logo" class="nav-logo-sidebar">
-          </a>
-          <span class="cancel-icon" onclick="closeSidebar()">&times;</span>
-        </div>
-        <ul class="navbar-nav" id="nav-sidebar-ul">
-          <li class="nav-item">
-            <a class="nav-link d-flex justify-content-between align-items-center" id="nav-a" href="#"
-              onclick="toggleDropdown('about')">About <i id="about-icon" class="fas bi-chevron-down about-icon"></i></a>
-            <div id="about-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdownAbout" style="display: none;">
-              <a class="dropdown-item" href="#">JustLogix</a>
-              <a class="dropdown-item" href="#">Skein Technologies</a>
-              <a class="dropdown-item" href="#">Management</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Product</a>
-            </div>
-          </li>
-          <hr class="footer-line" style="margin-top: 0px !important;">
-          <li class="nav-item" style="margin-top: -20px !important;">
-            <a class="nav-link d-flex justify-content-between align-items-center" id="nav-a" href="#"
-              onclick="toggleDropdown('services')">Services <i id="services-icon" class="fas bi-chevron-down"></i></a>
-            <div id="services-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdownServices"
-              style="display: none;">
-              <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
-              <a class="dropdown-item" href="#">Home</a>
-              <a class="dropdown-item" href="#">Management</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Product</a>
-            </div>
-          </li>
-          <hr class="footer-line" style="margin-top: 0px !important;">
-          <li class="nav-item" style="margin-top: -20px !important;">
-            <a class="nav-link d-flex justify-content-between align-items-center" id="nav-a" href="#"
-              onclick="toggleDropdown('Technologies')">Technologies <i id="services-icon"
-                class="fas bi-chevron-down"></i></a>
-            <div id="Technologies-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdownTechnologies"
-              style="display: none;">
-              <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
-              <a class="dropdown-item" href="#">Home</a>
-              <a class="dropdown-item" href="#">Management</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Product</a>
-            </div>
-          </li>
-          <hr class="footer-line" style="margin-top: 0px !important;">
+          <div class="sidebar-header">
+              <a class="navbar-brand" href="#" style="padding: 0;">
+                  <img src="./aboutImages/Logo.png" alt="Logo" class="nav-logo-sidebar">
+              </a>
+              <span class="cancel-icon" onclick="closeSidebar()">&times;</span>
+          </div>
+          <ul class="navbar-nav" id="nav-sidebar-ul">
+              <li class="nav-item">
+                  <a class="nav-link d-flex justify-content-between align-items-center" id="nav-a" href="#"
+                      onclick="toggleDropdown('about')">About <i id="about-icon"
+                          class="fas bi-chevron-down about-icon"></i></a>
+                  <div id="about-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdownAbout"
+                      style="display: none;">
+                      <a class="dropdown-item" href="#">JustLogix</a>
+                      <a class="dropdown-item" href="#">Skein Technologies</a>
+                      <a class="dropdown-item" href="#">Management</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Product</a>
+                  </div>
+              </li>
+              <hr class="footer-line" style="margin-top: 0px !important;">
+              <li class="nav-item" style="margin-top: -20px !important;">
+                  <a class="nav-link d-flex justify-content-between align-items-center" id="nav-a" href="#"
+                      onclick="toggleDropdown('services')">Services <i id="services-icon"
+                          class="fas bi-chevron-down"></i></a>
+                  <div id="services-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdownServices"
+                      style="display: none;">
+                      <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
+                      <a class="dropdown-item" href="#">Home</a>
+                      <a class="dropdown-item" href="#">Management</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Product</a>
+                  </div>
+              </li>
+              <hr class="footer-line" style="margin-top: 0px !important;">
+              <li class="nav-item" style="margin-top: -20px !important;">
+                  <a class="nav-link d-flex justify-content-between align-items-center" id="nav-a" href="#"
+                      onclick="toggleDropdown('Technologies')">Technologies <i id="services-icon"
+                          class="fas bi-chevron-down"></i></a>
+                  <div id="Technologies-dropdown" class="dropdown-menu"
+                      aria-labelledby="navbarDropdownTechnologies" style="display: none;">
+                      <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
+                      <a class="dropdown-item" href="#">Home</a>
+                      <a class="dropdown-item" href="#">Management</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Product</a>
+                  </div>
+              </li>
+              <hr class="footer-line" style="margin-top: 0px !important;">
 
-          <li class="nav-item" style="margin-top: -20px !important;">
-            <a class="nav-link d-flex justify-content-between align-items-center" id="nav-a" href="#"
-              onclick="toggleDropdown('Industries')">Industries <i id="services-icon"
-                class="fas bi-chevron-down"></i></a>
-            <div id="Industries-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdownIndustries"
-              style="display: none;">
-              <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
-              <a class="dropdown-item" href="#">Home</a>
-              <a class="dropdown-item" href="#">Management</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Product</a>
-            </div>
-          </li>
-          <hr class="footer-line" style="margin-top: 0px !important;">
+              <li class="nav-item" style="margin-top: -20px !important;">
+                  <a class="nav-link d-flex justify-content-between align-items-center" id="nav-a" href="#"
+                      onclick="toggleDropdown('Industries')">Industries <i id="services-icon"
+                          class="fas bi-chevron-down"></i></a>
+                  <div id="Industries-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdownIndustries"
+                      style="display: none;">
+                      <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
+                      <a class="dropdown-item" href="#">Home</a>
+                      <a class="dropdown-item" href="#">Management</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Product</a>
+                  </div>
+              </li>
+              <hr class="footer-line" style="margin-top: 0px !important;">
 
-          <li class="nav-item" style="margin-top: -20px !important;">
-            <a class="nav-link d-flex justify-content-between align-items-center" id="nav-a" href="#"
-              onclick="toggleDropdown('Portfolios')">Portfolios <i id="services-icon"
-                class="fas bi-chevron-down"></i></a>
-            <div id="Portfolios-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdownPortfolios"
-              style="display: none;">
-              <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
-              <a class="dropdown-item" href="#">Home</a>
-              <a class="dropdown-item" href="#">Management</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Product</a>
-            </div>
-          </li>
-          <hr class="footer-line" style="margin-top: 0px !important;">
-          <li class="nav-item">
-            <a class="nav-link" href="#"><button type="button" class="navbar-button">Get in Touch</button></a>
-          </li>
+              <li class="nav-item" style="margin-top: -20px !important;">
+                  <a class="nav-link d-flex justify-content-between align-items-center" id="nav-a" href="#"
+                      onclick="toggleDropdown('Portfolios')">Portfolios
+                       <!-- <i id="services-icon"
+                          class="fas bi-chevron-down"></i> -->
+                      </a>
+                  <!-- <div id="Portfolios-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdownPortfolios"
+                      style="display: none;">
+                      <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
+                      <a class="dropdown-item" href="#">Home</a>
+                      <a class="dropdown-item" href="#">Management</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Product</a>
+                  </div> -->
+              </li>
+              <hr class="footer-line" style="margin-top: 0px !important;">
+              <li class="nav-item">
+                  <a class="nav-link" href="#"><button type="button" class="navbar-button">Get in
+                          Touch</button></a>
+              </li>
 
-          <!-- Add other dropdown items -->
-        </ul>
+          </ul>
       </div>
-      <!-- End Sidebar -->
+
       <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto"
-          style="font-weight: 400; font-family: 'Source Sans Pro', sans-serif; gap: 10px !important;">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSolutions" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownSolutions">
-              <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
-              <a class="dropdown-item" href="#">Home</a>
-              <a class="dropdown-item" href="#">Management</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Product</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSolutions" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownSolutions">
-              <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
-              <a class="dropdown-item" href="#">Home</a>
-              <a class="dropdown-item" href="#">Management</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Product</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownIndustries" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownIndustries">
-              <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
-              <a class="dropdown-item" href="#">Home</a>
-              <a class="dropdown-item" href="#">Management</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Product</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTechnologies" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Industries</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownTechnologies">
-              <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
-              <a class="dropdown-item" href="#">Home</a>
-              <a class="dropdown-item" href="#">Management</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Product</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Technologies</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
-              <a class="dropdown-item" href="#">Home</a>
-              <a class="dropdown-item" href="#">Management</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Product</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
-              <a class="dropdown-item" href="#">Home</a>
-              <a class="dropdown-item" href="#">Management</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Product</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><button type="button" class="navbar_button">Get in Touch</button></a>
-          </li>
-        </ul>
+          <ul class="navbar-nav ml-auto"
+              style="font-weight: 400; font-family: 'Source Sans Pro', sans-serif; gap: 10px !important;">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSolutions" role="button"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownSolutions">
+                      <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
+                      <a class="dropdown-item" href="#">Home</a>
+                      <a class="dropdown-item" href="#">Management</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Product</a>
+                  </div>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSolutions" role="button"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownSolutions">
+                      <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
+                      <a class="dropdown-item" href="#">Home</a>
+                      <a class="dropdown-item" href="#">Management</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Product</a>
+                  </div>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownIndustries" role="button"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownIndustries">
+                      <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
+                      <a class="dropdown-item" href="#">Home</a>
+                      <a class="dropdown-item" href="#">Management</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Product</a>
+                  </div>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTechnologies" role="button"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Industries</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownTechnologies">
+                      <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
+                      <a class="dropdown-item" href="#">Home</a>
+                      <a class="dropdown-item" href="#">Management</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Product</a>
+                  </div>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" role="button"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Technologies</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownPortfolio">
+                      <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
+                      <a class="dropdown-item" href="#">Home</a>
+                      <a class="dropdown-item" href="#">Management</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Product</a>
+                  </div>
+              </li>
+              <li class="nav-item dropdown" style="margin-top: 1px !important; color: #676968 !important;">
+                  <a class="nav-link dropdown-togglee" href="#" id="navbarDropdownPortfolio" role="button"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                  <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownPortfolio">
+                      <a class="dropdown-item" href="../Webapp/webapp.html">WebApp</a>
+                      <a class="dropdown-item" href="#">Home</a>
+                      <a class="dropdown-item" href="#">Management</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Product</a>
+                  </div> -->
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#"><button type="button" class="navbar_button">Get in
+                          Touch</button></a>
+              </li>
+          </ul>
       </div>
-    </div>
-  </nav>
-  <script>
-    // Function to open sidebar
-    function openSidebar() {
+  </div>
+</nav>
+<script>
+  // Function to open sidebar
+  function openSidebar() {
       document.querySelector('.sidebar').classList.add('active');
       document.querySelector('body').classList.add('sidebar-open');
-    }
+  }
 
-    // Function to close sidebar
-    function closeSidebar() {
+  // Function to close sidebar
+  function closeSidebar() {
       document.querySelector('.sidebar').classList.remove('active');
       document.querySelector('body').classList.remove('sidebar-open');
-    }
+  }
 
 
-    // Function to toggle dropdown
-    function toggleDropdown(id) {
+  // Function to toggle dropdown
+  function toggleDropdown(id) {
       var dropdown = document.getElementById(id + '-dropdown');
       var icon = document.getElementById(id + '-icon');
       if (dropdown.style.display === "none") {
-        dropdown.style.display = "block";
-        icon.classList.remove('bi-chevron-down');
-        icon.classList.add('bi-chevron-up');
+          dropdown.style.display = "block";
+          icon.classList.remove('bi-chevron-down');
+          icon.classList.add('bi-chevron-up');
       } else {
-        dropdown.style.display = "none";
-        icon.classList.remove('bi-chevron-up');
-        icon.classList.add('bi-chevron-down');
+          dropdown.style.display = "none";
+          icon.classList.remove('bi-chevron-up');
+          icon.classList.add('bi-chevron-down');
       }
-    }
+  }
 
-    // Toggle sidebar on navbar toggler click
-    document.querySelector('.navbar-toggler').addEventListener('click', function () {
+  // Toggle sidebar on navbar toggler click
+  document.querySelector('.navbar-toggler').addEventListener('click', function () {
       if (document.querySelector('.sidebar').classList.contains('active')) {
-        closeSidebar(); // Close sidebar if already open
+          closeSidebar(); // Close sidebar if already open
       } else {
-        openSidebar(); // Open sidebar if closed
+          openSidebar(); // Open sidebar if closed
       }
-    });
-  </script>
+  });
+</script>
   <!-- navbar finished-->
   <!-- About page session2-->
   <div class="about-section">
@@ -1100,126 +1107,136 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <div class="row footer-columns justify-content-between">
-        <div id="footer-column" class="col-md-2 footer-column footer-about">
-          <h3 id="footer-head" class="mb-3 d-flex justify-content-between align-items-center">
-            About<i class="bi bi-chevron-down footer-arrow-icon"></i>
-          </h3>
-          <ul id="footer-menu" class="footer-menu">
-            <li>Who We Are</li>
-            <li>Career</li>
-            <li>How We Work</li>
-            <li>Blogs</li>
-            <li>Get in Touch</li>
-          </ul>
-          <hr class="footer-line">
+        <div class="row footer-columns justify-content-between">
+            <div id="footer-column" class="col-md-2 footer-column footer-about">
+                <h3 id="footer-head" class="mb-3 d-flex justify-content-between align-items-center">
+                    About<i class="bi bi-chevron-down footer-arrow-icon"></i>
+                </h3>
+                <ul id="footer-menu" class="footer-menu">
+                    <li>Who We Are</li>
+                    <li>Career</li>
+                    <li>How We Work</li>
+                    <li>Blogs</li>
+                    <li>Get in Touch</li>
+                </ul>
+                <hr class="footer-line">
+            </div>
+            <div id="footer-column" class="col-md-2 footer-column footer-services">
+                <h3 id="footer-head" class="mb-3 d-flex justify-content-between align-items-center">
+                    Services<i class="bi bi-chevron-down footer-arrow-icon"></i>
+                </h3>
+                <ul id="footer-menu" class="footer-menu">
+                    <li>Web App Development</li>
+                    <li>Mobile App Development</li>
+                    <li>Software Development</li>
+                    <li>Support & Maintenance</li>
+                    <li>QA Testing</li>
+                    <li>DevOps</li>
+                    <li>Blog</li>
+                    <li>Cloud Services</li>
+                </ul>
+                <hr class="footer-line">
+            </div>
+            <div id="footer-column" class="col-md-2 footer-column footer-technologies">
+                <h3 id="footer-head" class="mb-3 d-flex justify-content-between align-items-center">
+                    Technologies<i class="bi bi-chevron-down footer-arrow-icon"></i>
+                </h3>
+                <ul id="footer-menu" class="footer-menu">
+                    <li>Blockchain</li>
+                    <li>Artificial Intelligence</li>
+                    <li>AR & VR</li>
+                    <li>Cloud Computing</li>
+                    <li>Internet of Things</li>
+                    <li>more...</li>
+                </ul>
+                <hr class="footer-line">
+            </div>
+            <div id="footer-column" class="col-md-2 footer-column footer-industries">
+                <h3 id="footer-head" class="mb-3 d-flex justify-content-between align-items-center">
+                    Industries<i class="bi bi-chevron-down footer-arrow-icon"></i>
+                </h3>
+                <ul id="footer-menu" class="footer-menu">
+                    <li>FinTech</li>
+                    <li>Banking</li>
+                    <li>Retail</li>
+                    <li>Manufacturing</li>
+                    <li>Insurance</li>
+                    <li>Real Estate</li>
+                    <li>Travel & Tourism</li>
+                    <li>Education</li>
+                </ul>
+                <hr class="footer-line">
+            </div>
+            <div id="footer-column" class="col-md-2 footer-column footer-portfolios">
+                <h3 id="footer-head" class="mb-3 d-flex justify-content-between align-items-center">
+                    Portfolios<i class="bi bi-chevron-down footer-arrow-icon"></i>
+                </h3>
+                <ul id="footer-menu" class="footer-menu">
+                    <li>Kid's World</li>
+                    <li>Resto</li>
+                </ul>
+                <hr class="footer-line">
+            </div>
         </div>
-        <div id="footer-column" class="col-md-2 footer-column footer-services">
-          <h3 id="footer-head" class="mb-3 d-flex justify-content-between align-items-center">
-            Services<i class="bi bi-chevron-down footer-arrow-icon"></i>
-          </h3>
-          <ul id="footer-menu" class="footer-menu">
-            <li>Web App Development</li>
-            <li>Mobile App Development</li>
-            <li>Software Development</li>
-            <li>Support & Maintenance</li>
-            <li>QA Testing</li>
-            <li>DevOps</li>
-            <li>Blog</li>
-            <li>Cloud Services</li>
-          </ul>
-          <hr class="footer-line">
-        </div>
-        <div id="footer-column" class="col-md-2 footer-column footer-technologies">
-          <h3 id="footer-head" class="mb-3 d-flex justify-content-between align-items-center">
-            Technologies<i class="bi bi-chevron-down footer-arrow-icon"></i>
-          </h3>
-          <ul id="footer-menu" class="footer-menu">
-            <li>Blockchain</li>
-            <li>Artificial Intelligence</li>
-            <li>AR & VR</li>
-            <li>Cloud Computing</li>
-            <li>Internet of Things</li>
-            <li>more...</li>
-          </ul>
-          <hr class="footer-line">
-        </div>
-        <div id="footer-column" class="col-md-2 footer-column footer-industries">
-          <h3 id="footer-head" class="mb-3 d-flex justify-content-between align-items-center">
-            Industries<i class="bi bi-chevron-down footer-arrow-icon"></i>
-          </h3>
-          <ul id="footer-menu" class="footer-menu">
-            <li>FinTech</li>
-            <li>Banking</li>
-            <li>Retail</li>
-            <li>Manufacturing</li>
-            <li>Insurance</li>
-            <li>Real Estate</li>
-            <li>Travel & Tourism</li>
-            <li>Education</li>
-          </ul>
-          <hr class="footer-line">
-        </div>
-        <div id="footer-column" class="col-md-2 footer-column footer-portfolios">
-          <h3 id="footer-head" class="mb-3 d-flex justify-content-between align-items-center">
-            Portfolios<i class="bi bi-chevron-down footer-arrow-icon"></i>
-          </h3>
-          <ul id="footer-menu" class="footer-menu">
-            <li>Kid's World</li>
-            <li>Resto</li>
-          </ul>
-          <hr class="footer-line">
-        </div>
-      </div>
     </div>
     <hr class="footer-border">
     <div class="container">
-      <div class="row justify-content-between footer-bottom-content">
-        <div class="col-md-auto">
-          <p class="mb-0 footer-text1">Privacy Policy | Terms & Conditions | Sitemap</p>
+        <div class="row justify-content-between footer-bottom-content">
+            <div class="col-md-auto">
+                <p class="mb-0 footer-text1">Privacy Policy | Terms & Conditions | Sitemap</p>
+            </div>
+            <!-- <div class="col-md-auto d-flex justify-content-center" >
+                <p class="footer-text2"><span class="copysymbol">&copy;
+                    
+                </span><span class="copysymbol_text">2024 All
+                        Rights
+                        Reserved - justlogix.com</span></p>
+            </div> -->
+            <div class="col-md-auto " >
+                <p class="footer-text2"><span class="copysymbol"><img src="./aboutImages/copyRight.png"> </span>
+                    <span class="copysymbol_text">2024 All
+                        Rights
+                        Reserved - justlogix.com</span></p>
+            </div>
+            <div class="col-md-auto d-flex justify-content-center">
+                <div class="footer-text3">
+                    <a href="#" class="btn btn-link icon"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="btn btn-link icon"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="btn btn-link icon"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="btn btn-link icon"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
         </div>
-        <div class="col-md-auto">
-          <p class="footer-text2"><span class="copysymbol">&copy;</span><span class="copysymbol_text">2024 All Rights
-              Reserved - justlogix.com</span></p>
-        </div>
-        <div class="col-md-auto d-flex justify-content-center">
-          <div class="footer-text3">
-            <a href="#" class="btn btn-link icon"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="btn btn-link icon"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="btn btn-link icon"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="btn btn-link icon"><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-      </div>
     </div>
 
-  </footer>
-  <script>
+</footer>
+
+<script>
     document.addEventListener("DOMContentLoaded", function () {
-      // Get all footer columns
-      var footerColumns = document.querySelectorAll('#footer-column');
+        // Get all footer columns
+        var footerColumns = document.querySelectorAll('#footer-column');
 
-      // Loop through each footer column
-      footerColumns.forEach(function (column) {
-        // Find the h3 element
-        var h3 = column.querySelector('#footer-head');
+        // Loop through each footer column
+        footerColumns.forEach(function (column) {
+            // Find the h3 element
+            var h3 = column.querySelector('#footer-head');
 
-        // Find the ul element
-        var menu = column.querySelector('#footer-menu');
+            // Find the ul element
+            var menu = column.querySelector('#footer-menu');
 
-        // Add click event listener to the icon
-        h3.addEventListener('click', function () {
-          // Toggle the active class on the menu when the icon is clicked
-          menu.classList.toggle('active');
+            // Add click event listener to the icon
+            h3.addEventListener('click', function () {
+                // Toggle the active class on the menu when the icon is clicked
+                menu.classList.toggle('active');
 
-          // Toggle the icon between chevron-down and chevron-up
-          h3.querySelector('i').classList.toggle('bi-chevron-down');
-          h3.querySelector('i').classList.toggle('bi-chevron-up');
+                // Toggle the icon between chevron-down and chevron-up
+                h3.querySelector('i').classList.toggle('bi-chevron-down');
+                h3.querySelector('i').classList.toggle('bi-chevron-up');
+            });
         });
-      });
     });
 
-  </script>
+</script>
   <!-- Bootstrap JS and dependencies -->
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
